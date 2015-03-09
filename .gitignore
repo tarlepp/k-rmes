@@ -3,6 +3,7 @@
 .DS_STORE
 .netbeans
 nbproject
+node_modules/*
 .idea
 .node_history
 npm-debug.log
