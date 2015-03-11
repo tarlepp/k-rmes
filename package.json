@@ -1,0 +1,31 @@
+{
+  "name": "k-rmes",
+  "version": "1.0.0",
+  "description": "T0P1 (C1-10P) - Kärmes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tarlepp/k-rmes.git"
+  },
+  "keywords": [
+    "ai",
+    "nibbles",
+    "ptcs",
+    "protacon"
+  ],
+  "author": "Tarmo Leppänen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tarlepp/k-rmes/issues"
+  },
+  "homepage": "https://github.com/tarlepp/k-rmes",
+  "dependencies": {
+    "JSONStream": "0.10.0",
+    "easystarjs": "0.1.13",
+    "lodash": "3.4.0"
+  }
+}
