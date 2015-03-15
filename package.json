@@ -25,7 +25,6 @@
   "homepage": "https://github.com/tarlepp/k-rmes",
   "dependencies": {
     "JSONStream": "0.10.0",
-    "astar": "0.0.1",
     "bluebird": "2.9.13",
     "easystarjs": "0.1.13",
     "lodash": "3.4.0",
