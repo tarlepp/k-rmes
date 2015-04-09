@@ -2,7 +2,7 @@
   "name": "k-rmes",
   "version": "1.0.0",
   "description": "T0P1 (C1-10P) - Kärmes",
-  "main": "index.js",
+  "main": "karmes.js",
   "scripts": {
     "start": "node ./karmes.js",
     "test": "echo \"Error: no test specified\" && exit 1"
