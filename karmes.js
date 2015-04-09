@@ -20,8 +20,8 @@
  *
  * @type {exports}
  */
-/** @type {Connection} */
-var Connection = require('./lib/connection');
+/** @type {Game} */
+var Game = require('./lib/game');
 
 /** @type {LoggerInstance} */
 var Logger = require('./lib/logger');
@@ -30,11 +30,8 @@ var Logger = require('./lib/logger');
 try {
   Logger.info('Kärmes AI-bot started with following command:', JSON.stringify(process.argv));
 
-  // Create new connection
-  var connection = new Connection(process.argv[2], process.argv[3], process.argv[4]);
-
-  // And connect, this will start actual playing
-  connection.connect();
+  // Create new connection and start actual playing
+  new Game(process.argv[2], process.argv[3], process.argv[4]);
 } catch(error) {
   Logger.error('Damn gerbils have stopped running again! Someone has been dispatched to poke them with a sharp stick.');
   Logger.error(JSON.stringify(error));
