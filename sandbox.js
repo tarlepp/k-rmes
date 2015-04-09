@@ -16,9 +16,9 @@
  * @type {exports}
  * @private
  */
-var _ = require('lodash');
-var Utils = require('./lib/utils');
-var Constants = require('./lib/constants');
+var _ = require('lodash'); // jshint ignore:line
+var Utils = require('./lib/utils'); // jshint ignore:line
+var Constants = require('./lib/constants'); // jshint ignore:line
 /**#@-*/
 
 console.log('this is just for testing some code...');
