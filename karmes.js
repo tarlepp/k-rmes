@@ -1,13 +1,13 @@
 'use strict';
 
 /**
- * index.js
+ * karmes.js
  *
  * Main file of the Kärmes AI-bot, this is the first entry point when you start the bot.
  *
  * Usage examples:
  *  npm start [host] [port] [player]
- *  node index.js [host] [port] [player]
+ *  node karmes.js [host] [port] [player]
  *
  * Where
  *  host    = Server host, if not given fallback to 'localhost'
